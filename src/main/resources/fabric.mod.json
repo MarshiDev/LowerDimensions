@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lower-dimensions",
+	"version": "${version}",
+	"name": "Lower Dimensions",
+	"description": "Lower dimensions is a mod that adds a lot of creepy things.",
+	"authors": [
+		"MarshiDev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lower-dimensions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.marshidev.lowerdimensions.LowerDimensions"
+		],
+		"client": [
+			"net.marshidev.lowerdimensions.LowerDimensionsClient"
+		],
+		"fabric-datagen": [
+			"net.marshidev.lowerdimensions.LowerDimensionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"lower-dimensions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
