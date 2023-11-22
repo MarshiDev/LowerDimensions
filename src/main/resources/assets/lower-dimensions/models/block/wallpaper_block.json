@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lower-dimensions:block/wallpaper_block"
-  }
-}

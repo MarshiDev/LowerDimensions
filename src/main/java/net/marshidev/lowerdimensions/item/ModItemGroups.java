@@ -18,6 +18,9 @@ public class ModItemGroups {
                         entries.add(ModItems.ALMOND_WATER);
                         entries.add(ModItems.WALLPAPER);
                         entries.add(ModBlocks.WALLPAPER_BLOCK);
+                        entries.add(ModBlocks.WET_WOOL);
+                        entries.add(ModBlocks.WET_CARPET);
+                        entries.add(ModBlocks.CONCRETE_TILE);
                     }).build());
 
     public static void registerItemGroups() {

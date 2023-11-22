@@ -3,6 +3,8 @@ package net.marshidev.lowerdimensions;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.marshidev.lowerdimensions.datagen.*;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class LowerDimensionsDataGenerator implements DataGeneratorEntrypoint {
 	@Override

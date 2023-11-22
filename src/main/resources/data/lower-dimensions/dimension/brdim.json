@@ -1,0 +1,25 @@
+{
+  "type": "lower-dimensions:brdim",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "lower-dimensions:wet_wool",
+          "height": 64
+        },
+        {
+          "block": "minecraft:air",
+          "height": 4
+        },
+        {
+          "block": "lower-dimensions:concrete_tile",
+          "height": 4
+        }
+      ]
+    }
+  }
+}
