@@ -2,6 +2,9 @@ package net.marshidev.lowerdimensions;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.marshidev.lowerdimensions.block.ModBlocks;
+import net.marshidev.lowerdimensions.item.ModItemGroups;
+import net.marshidev.lowerdimensions.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,8 @@ public class LowerDimensions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
